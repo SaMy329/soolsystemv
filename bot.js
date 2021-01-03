@@ -1,14 +1,3 @@
-const http = require('http');
-const express = require('express');
-const app = express();
-app.get("/", (request, response) => {
-  response.sendStatus(200);
-});
-app.listen(process.env.PORT);
-setInterval(() => {
-  http.get(`http://.glitch.me/`);
-}, 280000);
-
 const Discord = require('discord.js');  
 const client = new Discord.Client();  
 const moment = require('moment');
@@ -4816,4 +4805,4 @@ client.on('message',  (message) => {
 
 
 
-client.login('');
+client.login('Nzk1MDA0MTY4NTU2MjQ5MTI4.X_DDVA.KHelTO3Mpss_6yfcqncCMw4JoMM');
